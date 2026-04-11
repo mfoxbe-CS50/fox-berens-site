@@ -1,0 +1,359 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "pricing": "Pricing",
+    "about": "About",
+    "blog": "Blog",
+    "contact": "Contact",
+    "dashboard": "Dashboard",
+    "login": "Log in",
+    "signup": "Get Started",
+    "menu": "Menu"
+  },
+  "hero": {
+    "title": "Your next clients are already online.",
+    "titleHighlight": "AI finds them for you.",
+    "subtitle": "LeadForge AI automates your B2B prospecting: prospect identification, AI enrichment, personalized outreach, and real-time tracking.",
+    "cta": "Free Audit",
+    "ctaSecondary": "View Pricing",
+    "socialProof": "Trusted by {count}+ companies in Geneva & Lyon"
+  },
+  "problem": {
+    "sectionTitle": "The Problem",
+    "sectionSubtitle": "Traditional prospecting no longer works",
+    "pain1Title": "High Acquisition Cost",
+    "pain1Desc": "Sales teams waste 60% of their time on low-value manual tasks.",
+    "pain2Title": "Low Conversion Rates",
+    "pain2Desc": "Generic messages generate less than 2% response rates — your prospects deserve better.",
+    "pain3Title": "Manual Prospecting",
+    "pain3Desc": "Contact research, copy-paste emails, approximate follow-ups — it's unsustainable.",
+    "solutionTitle": "The LeadForge AI Solution",
+    "stat1Value": "60",
+    "stat1Label": "reduction in acquisition costs",
+    "stat1Suffix": "%",
+    "stat2Value": "30",
+    "stat2Label": "increase in conversion rate",
+    "stat2Suffix": "%+",
+    "stat3Value": "10",
+    "stat3Label": "hours saved per week",
+    "stat3Suffix": "h+"
+  },
+  "services": {
+    "sectionTitle": "Our Services",
+    "sectionSubtitle": "Solutions tailored to every stage of your growth",
+    "tier1Title": "AI Audit & Setup",
+    "tier1Desc": "Analysis of your current pipeline, ICP definition, AI tool configuration, and team training.",
+    "tier1Price": "1,500 - 3,000 EUR",
+    "tier1Cta": "Learn More",
+    "tier2Title": "Managed Lead Generation",
+    "tier2Desc": "Full service: scraping, enrichment, multichannel outreach, and reporting — we handle everything.",
+    "tier2Price": "1,500 - 8,000 EUR/mo",
+    "tier2Cta": "Request a Quote",
+    "tier2Badge": "Popular",
+    "tier3Title": "Chatbot & Conversational AI",
+    "tier3Desc": "Intelligent chatbot for your website — automatic visitor qualification and appointment booking.",
+    "tier3Price": "2,000 - 5,000 EUR setup",
+    "tier3Cta": "Discover",
+    "tier4Title": "Performance / Commission",
+    "tier4Desc": "Performance model: reduced fixed fee + commission per qualified lead. No results, no invoice.",
+    "tier4Price": "1,000 EUR/mo + CPL",
+    "tier4Cta": "Let's Talk"
+  },
+  "howItWorks": {
+    "sectionTitle": "How It Works",
+    "sectionSubtitle": "A fully automated pipeline, from research to closing",
+    "step1Title": "Scraping",
+    "step1Desc": "Prospect identification based on your ICP via Apollo.io and B2B databases.",
+    "step2Title": "Enrichment",
+    "step2Desc": "AI analysis of each prospect: relevance score, company data, buying signals.",
+    "step3Title": "Personalization",
+    "step3Desc": "Automatic contextual message generation powered by Claude AI.",
+    "step4Title": "Multichannel Outreach",
+    "step4Desc": "Automated email + LinkedIn sequences via Instantly.ai with smart follow-ups.",
+    "step5Title": "Qualification",
+    "step5Desc": "AI analyzes responses and prioritizes hot leads for your team.",
+    "step6Title": "Reporting",
+    "step6Desc": "Real-time dashboard: KPIs, pipeline, ROI — total visibility."
+  },
+  "socialProof": {
+    "sectionTitle": "They Trust Us",
+    "sectionSubtitle": "Coming soon: client case studies",
+    "marketStatTitle": "An Exploding Market",
+    "marketStat1Value": "295",
+    "marketStat1Label": "Billion USD — global lead generation market",
+    "marketStat1Suffix": "B$",
+    "marketStat2Value": "17",
+    "marketStat2Label": "CAGR — annual sector growth",
+    "marketStat2Suffix": "%",
+    "marketStat3Value": "80",
+    "marketStat3Label": "of B2B companies prioritize lead generation",
+    "marketStat3Suffix": "%"
+  },
+  "differentiators": {
+    "sectionTitle": "Why LeadForge AI",
+    "sectionSubtitle": "What sets us apart from traditional agencies",
+    "diff1Title": "Trilingual FR/EN/PT",
+    "diff1Desc": "Native prospecting in three languages — no approximate translations.",
+    "diff2Title": "24 Years of IT Ops",
+    "diff2Desc": "Bloomberg experience, EMEA — enterprise rigor and reliability.",
+    "diff3Title": "Total Transparency",
+    "diff3Desc": "Real-time dashboard — you see every action, every result.",
+    "diff4Title": "AI-Native",
+    "diff4Desc": "Built around AI, not a traditional agency with a ChatGPT plugin."
+  },
+  "ctaFinal": {
+    "title": "Book Your Free Audit",
+    "subtitle": "30 minutes to transform your prospecting pipeline",
+    "cta": "Book a Slot",
+    "note": "No commitment — free analysis of your current strategy"
+  },
+  "pricing": {
+    "pageTitle": "Transparent Pricing",
+    "pageSubtitle": "Plans tailored to your ambition. No hidden fees.",
+    "monthly": "Monthly",
+    "annual": "Annual",
+    "annualSave": "2 months free",
+    "perMonth": "/mo",
+    "setup": "setup",
+    "plus": "+",
+    "getStarted": "Get Started",
+    "contactUs": "Contact Us",
+    "popular": "Popular",
+    "includesTitle": "What's included",
+    "tier1": {
+      "name": "AI Audit & Setup",
+      "price": "1,500",
+      "priceTo": "3,000",
+      "unit": "EUR",
+      "type": "one-time",
+      "desc": "The essentials to get started with AI",
+      "features": [
+        "Current pipeline audit",
+        "Ideal ICP definition",
+        "Apollo.io + Instantly.ai setup",
+        "Custom outreach templates",
+        "Team training (2h)",
+        "30-day email support"
+      ]
+    },
+    "tier2": {
+      "name": "Managed Leads",
+      "price": "1,500",
+      "priceTo": "8,000",
+      "unit": "EUR/mo",
+      "type": "recurring",
+      "desc": "We handle everything — you receive qualified leads",
+      "features": [
+        "Everything in Audit & Setup",
+        "Continuous scraping + enrichment",
+        "Automated multichannel outreach",
+        "Message A/B testing",
+        "Weekly reporting",
+        "Dedicated account manager",
+        "Real-time dashboard",
+        "Monthly optimization"
+      ]
+    },
+    "tier3": {
+      "name": "Chatbot & AI",
+      "price": "2,000",
+      "priceTo": "5,000",
+      "unit": "EUR",
+      "type": "one-time",
+      "desc": "Qualify your visitors automatically",
+      "features": [
+        "AI chatbot on your website",
+        "Automatic visitor qualification",
+        "Automated appointment booking",
+        "CRM integration (HubSpot)",
+        "Brand customization",
+        "3-month support & maintenance"
+      ]
+    },
+    "tier4": {
+      "name": "Performance",
+      "price": "1,000",
+      "priceTo": "",
+      "unit": "EUR/mo + CPL",
+      "type": "performance",
+      "desc": "Pay for results — our skin in the game",
+      "features": [
+        "Everything in Managed Leads",
+        "Performance-based model",
+        "Commission per qualified lead",
+        "Contractual monthly targets",
+        "Detailed ROI reporting",
+        "Monthly strategic review"
+      ]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "q1": "How long until I see results?",
+      "a1": "First leads typically arrive within 2 to 4 weeks after setup. The pipeline reaches cruising speed after 6 to 8 weeks.",
+      "q2": "What tools do you use?",
+      "a2": "Our stack includes Apollo.io for scraping, Instantly.ai for outreach, Claude AI for personalization, n8n for orchestration, and HubSpot for CRM.",
+      "q3": "Does this work for my industry?",
+      "a3": "We work with B2B SMEs in tech, professional services, consulting, and finance. If your ideal client is identifiable online, it will work.",
+      "q4": "How is this different from a traditional SDR?",
+      "a4": "An SDR handles 50-100 prospects per day. Our system handles 1,000+ with superior personalization at 3-5x lower cost.",
+      "q5": "Is my data secure?",
+      "a5": "Absolutely. All data is hosted on Supabase (AWS EU infrastructure), GDPR compliant. You retain 100% ownership of your data.",
+      "q6": "Can I cancel anytime?",
+      "a6": "Yes, all contracts have no minimum commitment beyond the first month. Cancel with 30 days notice.",
+      "q7": "Do you offer a free trial?",
+      "a7": "We offer a free 30-minute audit to evaluate your current pipeline and show you the potential. No commitment.",
+      "q8": "How do you measure ROI?",
+      "a8": "Real-time dashboard with clear metrics: CPL (cost per lead), conversion rate, pipeline value, and overall ROI. Total transparency."
+    },
+    "ctaTitle": "Let's Talk About Your Project",
+    "ctaSubtitle": "A free 30-minute audit to define your strategy",
+    "ctaCta": "Book a Meeting"
+  },
+  "about": {
+    "pageTitle": "About",
+    "pageSubtitle": "The story behind LeadForge AI",
+    "storyTitle": "24 Years of IT, One Conviction",
+    "storyP1": "After 24 years in IT Operations — from Bloomberg to EMEA infrastructure — I've seen firsthand how technology transforms businesses. But I've also seen a recurring problem: SMEs don't have access to the same tools as large corporations.",
+    "storyP2": "LeadForge AI was born from this conviction: AI can democratize B2B prospecting. Not empty volume. Qualified leads, personalized, delivered with transparency.",
+    "missionTitle": "Our Mission",
+    "missionText": "Not empty volume. Qualified leads.",
+    "missionDesc": "We build AI prospecting systems that generate qualified leads for European SMEs — with enterprise ops rigor and real-time dashboard transparency.",
+    "philosophyTitle": "Our Tech Philosophy",
+    "philosophy1Title": "AI-Native",
+    "philosophy1Desc": "Every workflow is designed around AI — it's not an afterthought.",
+    "philosophy2Title": "Transparent",
+    "philosophy2Desc": "Real-time dashboard. You see everything: every action, every euro spent.",
+    "philosophy3Title": "Results-Driven",
+    "philosophy3Desc": "Clear metrics, measurable ROI. No vanity metrics.",
+    "stackTitle": "Our Tech Stack",
+    "stackSubtitle": "Best-in-class tools, seamlessly integrated",
+    "timelineTitle": "Journey",
+    "timeline": [
+      {
+        "year": "2002",
+        "title": "IT Operations Begins",
+        "desc": "Career launch in infrastructure and IT operations."
+      },
+      {
+        "year": "2008",
+        "title": "Bloomberg & Finance",
+        "desc": "Tech operations in the financial sector, institutional clients."
+      },
+      {
+        "year": "2015",
+        "title": "EMEA Operations",
+        "desc": "European-scale IT infrastructure responsibility."
+      },
+      {
+        "year": "2023",
+        "title": "AI Pivot",
+        "desc": "Deep exploration of generative AI and automation."
+      },
+      {
+        "year": "2025",
+        "title": "CS50 & Dev",
+        "desc": "Harvard CS50 — computer science and web development foundations."
+      },
+      {
+        "year": "2026",
+        "title": "LeadForge AI",
+        "desc": "Launch of the AI-powered lead generation agency."
+      }
+    ],
+    "founderName": "Michel Fox Berens",
+    "founderRole": "Founder & CEO"
+  },
+  "contact": {
+    "pageTitle": "Contact Us",
+    "pageSubtitle": "Have a question? A project? Let's talk.",
+    "formName": "Full Name",
+    "formEmail": "Work Email",
+    "formCompany": "Company",
+    "formService": "Service you're interested in",
+    "formServiceOptions": {
+      "audit": "AI Audit & Setup",
+      "leads": "Managed Lead Generation",
+      "chatbot": "Chatbot & Conversational AI",
+      "performance": "Performance / Commission",
+      "other": "Other"
+    },
+    "formMessage": "Your message",
+    "formSubmit": "Send Message",
+    "formSubmitting": "Sending...",
+    "formSuccess": "Message sent! We'll get back to you within 24h.",
+    "formError": "Error sending message. Please try again.",
+    "locationTitle": "Our Base",
+    "locationText": "Based in Ferney-Voltaire, at the heart of the Geneva-Lyon corridor",
+    "responseTime": "Response within 24h",
+    "bookingTitle": "Book a Slot",
+    "bookingDesc": "30 minutes to discuss your project — no commitment."
+  },
+  "notFound": {
+    "title": "404",
+    "heading": "Page Not Found",
+    "description": "The page you're looking for doesn't exist or has been moved.",
+    "cta": "Back to Home"
+  },
+  "footer": {
+    "description": "AI-powered lead generation agency. Based in Ferney-Voltaire.",
+    "company": "Company",
+    "companyLinks": {
+      "about": "About",
+      "blog": "Blog",
+      "contact": "Contact"
+    },
+    "servicesTitle": "Services",
+    "servicesLinks": {
+      "audit": "AI Audit & Setup",
+      "leads": "Lead Generation",
+      "chatbot": "AI Chatbot",
+      "performance": "Performance"
+    },
+    "resources": "Resources",
+    "resourcesLinks": {
+      "blog": "Blog",
+      "docs": "Documentation",
+      "status": "Status"
+    },
+    "legal": "Legal",
+    "legalLinks": {
+      "privacy": "Privacy",
+      "terms": "Terms",
+      "mentions": "Legal Notice"
+    },
+    "newsletter": "Newsletter",
+    "newsletterDesc": "Get our weekly AI & prospecting tips.",
+    "newsletterPlaceholder": "your@email.com",
+    "newsletterCta": "Subscribe",
+    "newsletterSuccess": "Subscribed successfully!",
+    "madeWith": "Made with AI",
+    "copyright": "All rights reserved."
+  },
+  "dashboard": {
+    "nav": {
+      "home": "Home",
+      "leads": "Leads",
+      "campaigns": "Campaigns",
+      "analytics": "Analytics",
+      "settings": "Settings"
+    },
+    "title": "Dashboard",
+    "welcome": "Welcome to LeadForge AI"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Operation successful",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "search": "Search",
+    "noResults": "No results",
+    "comingSoon": "Coming soon"
+  }
+}

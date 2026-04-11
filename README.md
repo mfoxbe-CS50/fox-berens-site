@@ -1,36 +1,122 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# LeadForge AI
+
+AI-powered lead generation agency platform — B2B/B2C multi-tenant SaaS.
+
+## Architecture
+
+```
+┌─────────────────────────────────────────────────────────┐
+│                     FRONTEND                            │
+│  Next.js 15 (App Router) + Tailwind CSS + shadcn/ui    │
+│  i18n: next-intl (fr/en)                               │
+│  Hosting: Vercel                                        │
+├─────────────────────────────────────────────────────────┤
+│                      AUTH                               │
+│  Supabase Auth (Magic Link + Google + LinkedIn OAuth)   │
+├─────────────────────────────────────────────────────────┤
+│                   BUSINESS DATA                          │
+│  Airtable (Leads, Campaigns, Contacts, Newsletter)      │
+├─────────────────────────────────────────────────────────┤
+│                  ORCHESTRATION                           │
+│  Make.com (formerly Integromat)                         │
+│  Webhooks ──► Lead enrichment ──► Outreach sequences    │
+├─────────────────────────────────────────────────────────┤
+│                  INTEGRATIONS                            │
+│  Apollo.io │ Instantly.ai │ Claude API │ HubSpot Free   │
+├─────────────────────────────────────────────────────────┤
+│                     CMS                                  │
+│  Notion API (headless blog)                             │
+├─────────────────────────────────────────────────────────┤
+│                   ANALYTICS                              │
+│  PostHog / Plausible                                    │
+└─────────────────────────────────────────────────────────┘
+```
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 20 LTS (see `.nvmrc`)
+- npm 10+
+- Supabase project (auth only)
+- Airtable base (business data)
+- Make.com account (workflow automation)
+- Notion API key (blog CMS)
+
+### Setup
 
 ```bash
+# Clone the repository
+git clone git@github.com:mfoxbe-cs50/fox-berens-site.git
+cd fox-berens-site
+
+# Install dependencies
+npm install
+
+# Configure environment
+cp .env.example .env.local
+# Fill in your environment variables
+
+# Start development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the app.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Command              | Description                     |
+| -------------------- | ------------------------------- |
+| `npm run dev`        | Start dev server (Turbopack)    |
+| `npm run build`      | Production build                |
+| `npm run start`      | Start production server         |
+| `npm run lint`       | Run ESLint                      |
+| `npm run type-check` | Run TypeScript type checking    |
+| `npm run format`     | Format code with Prettier       |
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+src/
+├── app/
+│   ├── [locale]/           # i18n routing (fr/en)
+│   │   ├── layout.tsx      # Root layout with providers
+│   │   ├── page.tsx        # Landing page (7 sections)
+│   │   ├── pricing/        # Pricing page (4 tiers + FAQ)
+│   │   ├── about/          # About page
+│   │   ├── blog/           # Blog (Notion CMS)
+│   │   ├── contact/        # Contact page (form > Make webhook)
+│   │   └── dashboard/      # Auth-protected client area
+│   ├── api/                # API routes
+│   └── globals.css         # Design system tokens
+├── components/
+│   ├── ui/                 # shadcn/ui primitives
+│   ├── layout/             # Header, Footer, Sidebar
+│   ├── landing/            # Landing page sections
+│   ├── dashboard/          # Dashboard widgets
+│   └── blog/               # Blog components
+├── lib/
+│   ├── supabase/           # Supabase client (auth only)
+│   ├── airtable/           # Airtable CRUD client
+│   ├── make/               # Make.com webhook triggers
+│   ├── notion/             # Notion CMS client
+│   ├── i18n/               # Internationalization config
+│   ├── seo.ts              # JSON-LD structured data
+│   └── utils.ts            # Shared utilities
+├── messages/               # i18n translation files
+│   ├── fr.json
+│   └── en.json
+├── types/                  # TypeScript type definitions
+└── middleware.ts            # i18n + auth middleware
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Framework:** Next.js 15 (App Router, TypeScript)
+- **Styling:** Tailwind CSS 4 + shadcn/ui
+- **Auth:** Supabase Auth
+- **Database:** Airtable
+- **Orchestration:** Make.com
+- **i18n:** next-intl (French + English)
+- **CMS:** Notion API
+- **Hosting:** Vercel

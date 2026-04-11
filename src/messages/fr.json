@@ -1,0 +1,359 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "pricing": "Tarifs",
+    "about": "A propos",
+    "blog": "Blog",
+    "contact": "Contact",
+    "dashboard": "Tableau de bord",
+    "login": "Connexion",
+    "signup": "Commencer",
+    "menu": "Menu"
+  },
+  "hero": {
+    "title": "Vos prochains clients sont deja en ligne.",
+    "titleHighlight": "L'IA les trouve pour vous.",
+    "subtitle": "LeadForge AI automatise votre prospection B2B : identification de prospects, enrichissement IA, outreach personnalise et suivi en temps reel.",
+    "cta": "Audit gratuit",
+    "ctaSecondary": "Voir les tarifs",
+    "socialProof": "La confiance de {count}+ entreprises a Geneve & Lyon"
+  },
+  "problem": {
+    "sectionTitle": "Le probleme",
+    "sectionSubtitle": "La prospection traditionnelle ne fonctionne plus",
+    "pain1Title": "Cout d'acquisition eleve",
+    "pain1Desc": "Les equipes commerciales perdent 60% de leur temps sur des taches manuelles a faible valeur ajoutee.",
+    "pain2Title": "Taux de conversion faible",
+    "pain2Desc": "Les messages generiques generent moins de 2% de reponses — vos prospects meritent mieux.",
+    "pain3Title": "Prospection manuelle",
+    "pain3Desc": "Recherche de contacts, copier-coller d'emails, suivi approximatif — ce n'est plus tenable.",
+    "solutionTitle": "La solution LeadForge AI",
+    "stat1Value": "60",
+    "stat1Label": "reduction des couts d'acquisition",
+    "stat1Suffix": "%",
+    "stat2Value": "30",
+    "stat2Label": "d'augmentation du taux de conversion",
+    "stat2Suffix": "%+",
+    "stat3Value": "10",
+    "stat3Label": "heures economisees par semaine",
+    "stat3Suffix": "h+"
+  },
+  "services": {
+    "sectionTitle": "Nos services",
+    "sectionSubtitle": "Des solutions adaptees a chaque etape de votre croissance",
+    "tier1Title": "Audit & Setup IA",
+    "tier1Desc": "Analyse de votre pipeline actuel, definition de l'ICP, configuration des outils IA et formation de votre equipe.",
+    "tier1Price": "1 500 - 3 000 EUR",
+    "tier1Cta": "En savoir plus",
+    "tier2Title": "Generation de Leads Managee",
+    "tier2Desc": "Service complet : scraping, enrichissement, outreach multicanal et reporting — nous gerons tout.",
+    "tier2Price": "1 500 - 8 000 EUR/mois",
+    "tier2Cta": "Demander un devis",
+    "tier2Badge": "Populaire",
+    "tier3Title": "Chatbot & IA Conversationnelle",
+    "tier3Desc": "Chatbot intelligent pour votre site web — qualification automatique des visiteurs et prise de rendez-vous.",
+    "tier3Price": "2 000 - 5 000 EUR setup",
+    "tier3Cta": "Decouvrir",
+    "tier4Title": "Performance / Commission",
+    "tier4Desc": "Modele a la performance : frais fixe reduit + commission par lead qualifie livre. Pas de resultat, pas de facture.",
+    "tier4Price": "1 000 EUR/mois + CPL",
+    "tier4Cta": "Discutons-en"
+  },
+  "howItWorks": {
+    "sectionTitle": "Comment ca marche",
+    "sectionSubtitle": "Un pipeline entierement automatise, de la recherche au closing",
+    "step1Title": "Scraping",
+    "step1Desc": "Identification de prospects selon votre ICP via Apollo.io et bases de donnees B2B.",
+    "step2Title": "Enrichissement",
+    "step2Desc": "Analyse IA de chaque prospect : score de pertinence, donnees entreprise, signaux d'achat.",
+    "step3Title": "Personnalisation",
+    "step3Desc": "Generation automatique de messages contextuels grace a Claude AI.",
+    "step4Title": "Outreach multicanal",
+    "step4Desc": "Sequences email + LinkedIn automatisees via Instantly.ai avec follow-up intelligent.",
+    "step5Title": "Qualification",
+    "step5Desc": "L'IA analyse les reponses et priorise les leads chauds pour votre equipe.",
+    "step6Title": "Reporting",
+    "step6Desc": "Dashboard en temps reel : KPIs, pipeline, ROI — visibilite totale."
+  },
+  "socialProof": {
+    "sectionTitle": "Ils nous font confiance",
+    "sectionSubtitle": "Bientot : etudes de cas clients",
+    "marketStatTitle": "Un marche en pleine explosion",
+    "marketStat1Value": "295",
+    "marketStat1Label": "Milliards USD — marche mondial de la lead generation",
+    "marketStat1Suffix": "B$",
+    "marketStat2Value": "17",
+    "marketStat2Label": "CAGR — croissance annuelle du secteur",
+    "marketStat2Suffix": "%",
+    "marketStat3Value": "80",
+    "marketStat3Label": "des entreprises B2B priorisent la generation de leads",
+    "marketStat3Suffix": "%"
+  },
+  "differentiators": {
+    "sectionTitle": "Pourquoi LeadForge AI",
+    "sectionSubtitle": "Ce qui nous differencie des agences traditionnelles",
+    "diff1Title": "Trilingue FR/EN/PT",
+    "diff1Desc": "Prospection native dans trois langues — pas de traduction approximative.",
+    "diff2Title": "24 ans d'IT Ops",
+    "diff2Desc": "Experience Bloomberg, EMEA — rigueur enterprise et fiabilite.",
+    "diff3Title": "Transparence totale",
+    "diff3Desc": "Dashboard en temps reel — vous voyez chaque action, chaque resultat.",
+    "diff4Title": "IA-native",
+    "diff4Desc": "Construit autour de l'IA, pas une agence traditionnelle avec un plugin ChatGPT."
+  },
+  "ctaFinal": {
+    "title": "Reservez votre audit gratuit",
+    "subtitle": "30 minutes pour transformer votre pipeline de prospection",
+    "cta": "Reserver un creneau",
+    "note": "Sans engagement — analyse gratuite de votre strategie actuelle"
+  },
+  "pricing": {
+    "pageTitle": "Tarifs transparents",
+    "pageSubtitle": "Des formules adaptees a votre ambition. Pas de frais caches.",
+    "monthly": "Mensuel",
+    "annual": "Annuel",
+    "annualSave": "2 mois offerts",
+    "perMonth": "/mois",
+    "setup": "setup",
+    "plus": "+",
+    "getStarted": "Commencer",
+    "contactUs": "Nous contacter",
+    "popular": "Populaire",
+    "includesTitle": "Ce qui est inclus",
+    "tier1": {
+      "name": "Audit & Setup IA",
+      "price": "1 500",
+      "priceTo": "3 000",
+      "unit": "EUR",
+      "type": "one-time",
+      "desc": "L'essentiel pour demarrer avec l'IA",
+      "features": [
+        "Audit de votre pipeline actuel",
+        "Definition de l'ICP ideal",
+        "Configuration Apollo.io + Instantly.ai",
+        "Templates d'outreach personnalises",
+        "Formation equipe (2h)",
+        "Support email 30 jours"
+      ]
+    },
+    "tier2": {
+      "name": "Leads Managee",
+      "price": "1 500",
+      "priceTo": "8 000",
+      "unit": "EUR/mois",
+      "type": "recurring",
+      "desc": "On gere tout — vous recevez des leads qualifies",
+      "features": [
+        "Tout de l'Audit & Setup",
+        "Scraping + enrichissement continu",
+        "Outreach multicanal automatise",
+        "A/B testing des messages",
+        "Reporting hebdomadaire",
+        "Account manager dedie",
+        "Dashboard temps reel",
+        "Optimisation mensuelle"
+      ]
+    },
+    "tier3": {
+      "name": "Chatbot & IA",
+      "price": "2 000",
+      "priceTo": "5 000",
+      "unit": "EUR",
+      "type": "one-time",
+      "desc": "Qualifiez vos visiteurs automatiquement",
+      "features": [
+        "Chatbot IA sur votre site",
+        "Qualification automatique des visiteurs",
+        "Prise de rendez-vous automatisee",
+        "Integration CRM (HubSpot)",
+        "Personnalisation marque",
+        "Support et maintenance 3 mois"
+      ]
+    },
+    "tier4": {
+      "name": "Performance",
+      "price": "1 000",
+      "priceTo": "",
+      "unit": "EUR/mois + CPL",
+      "type": "performance",
+      "desc": "Payez au resultat — notre peau dans le jeu",
+      "features": [
+        "Tout de Leads Managee",
+        "Modele a la performance",
+        "Commission par lead qualifie",
+        "Objectifs mensuels contractuels",
+        "Reporting ROI detaille",
+        "Revue strategique mensuelle"
+      ]
+    },
+    "faq": {
+      "title": "Questions frequentes",
+      "q1": "Combien de temps avant les premiers resultats ?",
+      "a1": "Les premieres leads arrivent generalement sous 2 a 4 semaines apres le setup. Le pipeline atteint sa vitesse de croisiere au bout de 6 a 8 semaines.",
+      "q2": "Quels outils utilisez-vous ?",
+      "a2": "Notre stack inclut Apollo.io pour le scraping, Instantly.ai pour l'outreach, Claude AI pour la personnalisation, n8n pour l'orchestration et HubSpot pour le CRM.",
+      "q3": "Est-ce que ca fonctionne pour mon secteur ?",
+      "a3": "Nous travaillons avec des PME B2B dans la tech, les services professionnels, le conseil et la finance. Si votre client ideal est identifiable en ligne, ca fonctionnera.",
+      "q4": "Quelle est la difference avec un SDR traditionnel ?",
+      "a4": "Un SDR gere 50-100 prospects par jour. Notre systeme en gere 1000+ avec une personnalisation superieure et un cout 3 a 5x inferieur.",
+      "q5": "Mes donnees sont-elles en securite ?",
+      "a5": "Absolument. Toutes les donnees sont hebergees sur Supabase (infrastructure AWS EU), conformes RGPD. Vous restez proprietaire de vos donnees a 100%.",
+      "q6": "Puis-je annuler a tout moment ?",
+      "a6": "Oui, tous nos contrats sont sans engagement minimum au-dela du premier mois. Annulation avec 30 jours de preavis.",
+      "q7": "Proposez-vous un essai gratuit ?",
+      "a7": "Nous proposons un audit gratuit de 30 minutes pour evaluer votre pipeline actuel et vous montrer le potentiel. Pas d'engagement.",
+      "q8": "Comment mesurez-vous le ROI ?",
+      "a8": "Dashboard en temps reel avec metriques claires : CPL (cout par lead), taux de conversion, pipeline value, et ROI global. Transparence totale."
+    },
+    "ctaTitle": "Parlons de votre projet",
+    "ctaSubtitle": "Un audit gratuit de 30 minutes pour definir votre strategie",
+    "ctaCta": "Prendre rendez-vous"
+  },
+  "about": {
+    "pageTitle": "A propos",
+    "pageSubtitle": "L'histoire derriere LeadForge AI",
+    "storyTitle": "24 ans d'IT, une conviction",
+    "storyP1": "Apres 24 ans dans l'IT Operations — de Bloomberg aux infrastructures EMEA — j'ai vu de pres comment la technologie transforme les entreprises. Mais j'ai aussi vu un probleme recurrent : les PME n'ont pas acces aux memes outils que les grands groupes.",
+    "storyP2": "LeadForge AI est ne de cette conviction : l'IA peut democratiser la prospection B2B. Pas du volume creux. Des leads qualifies, personnalises, livres avec transparence.",
+    "missionTitle": "Notre mission",
+    "missionText": "Pas du volume creux. Des leads qualifies.",
+    "missionDesc": "Nous construisons des systemes de prospection IA qui generent des leads qualifies pour les PME europeennes — avec la rigueur d'un ops enterprise et la transparence d'un dashboard en temps reel.",
+    "philosophyTitle": "Notre philosophie tech",
+    "philosophy1Title": "IA-native",
+    "philosophy1Desc": "Chaque workflow est concu autour de l'IA — ce n'est pas un ajout tardif.",
+    "philosophy2Title": "Transparent",
+    "philosophy2Desc": "Dashboard en temps reel. Vous voyez tout : chaque action, chaque euro depense.",
+    "philosophy3Title": "Axe resultats",
+    "philosophy3Desc": "Metriques claires, ROI mesurable. Pas de vanity metrics.",
+    "stackTitle": "Notre stack technologique",
+    "stackSubtitle": "Les meilleurs outils du marche, integres de maniere transparente",
+    "timelineTitle": "Parcours",
+    "timeline": [
+      {
+        "year": "2002",
+        "title": "Debut IT Operations",
+        "desc": "Lancement de carriere dans l'infrastructure et les operations IT."
+      },
+      {
+        "year": "2008",
+        "title": "Bloomberg & Finance",
+        "desc": "Operations technologiques dans le secteur financier, clients institutionnels."
+      },
+      {
+        "year": "2015",
+        "title": "EMEA Operations",
+        "desc": "Responsabilite des infrastructures IT a l'echelle europeenne."
+      },
+      {
+        "year": "2023",
+        "title": "Virage IA",
+        "desc": "Exploration approfondie de l'IA generative et de l'automatisation."
+      },
+      {
+        "year": "2025",
+        "title": "CS50 & Dev",
+        "desc": "Harvard CS50 — fondations en informatique et developpement web."
+      },
+      {
+        "year": "2026",
+        "title": "LeadForge AI",
+        "desc": "Lancement de l'agence de generation de leads propulsee par l'IA."
+      }
+    ],
+    "founderName": "Michel Fox Berens",
+    "founderRole": "Fondateur & CEO"
+  },
+  "contact": {
+    "pageTitle": "Contactez-nous",
+    "pageSubtitle": "Une question ? Un projet ? Parlons-en.",
+    "formName": "Nom complet",
+    "formEmail": "Email professionnel",
+    "formCompany": "Entreprise",
+    "formService": "Service qui vous interesse",
+    "formServiceOptions": {
+      "audit": "Audit & Setup IA",
+      "leads": "Generation de Leads Managee",
+      "chatbot": "Chatbot & IA Conversationnelle",
+      "performance": "Performance / Commission",
+      "other": "Autre"
+    },
+    "formMessage": "Votre message",
+    "formSubmit": "Envoyer le message",
+    "formSubmitting": "Envoi en cours...",
+    "formSuccess": "Message envoye ! Nous revenons vers vous sous 24h.",
+    "formError": "Erreur lors de l'envoi. Veuillez reessayer.",
+    "locationTitle": "Notre base",
+    "locationText": "Base a Ferney-Voltaire, au coeur du corridor Geneve-Lyon",
+    "responseTime": "Reponse sous 24h",
+    "bookingTitle": "Reservez un creneau",
+    "bookingDesc": "30 minutes pour discuter de votre projet — sans engagement."
+  },
+  "notFound": {
+    "title": "404",
+    "heading": "Page introuvable",
+    "description": "La page que vous cherchez n'existe pas ou a ete deplacee.",
+    "cta": "Retour a l'accueil"
+  },
+  "footer": {
+    "description": "Agence de generation de leads propulsee par l'intelligence artificielle. Basee a Ferney-Voltaire.",
+    "company": "Entreprise",
+    "companyLinks": {
+      "about": "A propos",
+      "blog": "Blog",
+      "contact": "Contact"
+    },
+    "servicesTitle": "Services",
+    "servicesLinks": {
+      "audit": "Audit & Setup IA",
+      "leads": "Generation de Leads",
+      "chatbot": "Chatbot IA",
+      "performance": "Performance"
+    },
+    "resources": "Ressources",
+    "resourcesLinks": {
+      "blog": "Blog",
+      "docs": "Documentation",
+      "status": "Status"
+    },
+    "legal": "Legal",
+    "legalLinks": {
+      "privacy": "Confidentialite",
+      "terms": "CGV",
+      "mentions": "Mentions legales"
+    },
+    "newsletter": "Newsletter",
+    "newsletterDesc": "Recevez nos conseils IA et prospection chaque semaine.",
+    "newsletterPlaceholder": "votre@email.com",
+    "newsletterCta": "S'abonner",
+    "newsletterSuccess": "Inscription reussie !",
+    "madeWith": "Fait avec l'IA",
+    "copyright": "Tous droits reserves."
+  },
+  "dashboard": {
+    "nav": {
+      "home": "Accueil",
+      "leads": "Leads",
+      "campaigns": "Campagnes",
+      "analytics": "Analytiques",
+      "settings": "Parametres"
+    },
+    "title": "Tableau de bord",
+    "welcome": "Bienvenue sur LeadForge AI"
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Une erreur est survenue",
+    "success": "Operation reussie",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "back": "Retour",
+    "next": "Suivant",
+    "previous": "Precedent",
+    "search": "Rechercher",
+    "noResults": "Aucun resultat",
+    "comingSoon": "Bientot disponible"
+  }
+}
